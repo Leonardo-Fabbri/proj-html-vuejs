@@ -176,16 +176,18 @@ body {
     margin-bottom: 20px;
 }
 .upper-half h1 {
-    width: 400px;
     color: #6abf16;
     font-size: 50px;
     margin: 0 auto;
+}
+.pr {
+    width: 400px;
 }
 .lower-half p {
     margin: 30px;
 }
 .button {
-    width: 300px;
+    width: 100px;
     padding: 10px;
     border: 1px;
     border-radius: 20px;
@@ -195,6 +197,37 @@ body {
 .firstB {
     margin: 0 auto;
 }
+
+.areProfessional {
+    width: 100%;
+    background-color: blue;
+    padding-top: 7%;
+    padding-right: 30px;
+    padding-bottom: 7%;
+    padding-left: 30px;
+}
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.bflex , .bflex , .bflex {
+    width: 400px;
+    height: 300px;
+    background-color: magenta;
+    border: 1px solid black;
+    flex-direction: column;
+    padding: 20px;
+}
+.one , .two {
+    margin-right: 20px;
+}
+
+.bflex ,  img {
+    width: 100%;
+}
+
 
 
 
