@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    width: 100%;
+    height: 300vh;
+    background-color: gray;
+
+}
+.centopercento-upper {
+    width: 100%;
+    height: 5vh;
+    background-color: #6Abf16;
+}
+.menu {
+    width: 100%;
+}
+.center-top {
+    width: 90%;
+    height: 5vh;
+    background-color: pink;
+    margin: 0 auto;
+}
+.center-bottom {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.upper-menu {
+    width: 100%;
+    height: 5vh;
+    background-color: #69bf14;
+    padding: 10px;
+}
+.left {
+    float: left;
+    height: 100%;
+
+}
+.left i , .number {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+
+}
+.left p {
+    margin-left: 10px;
+}
+.right {
+    float: right;
+    height: 100%;
+    color:white;
+   
+}
+.right i {
+    margin-left: 15px;
+}
+.centopercento-lower {
+    width: 100%;
+    height: 12vh;
+    background-color: white; 
+}
+.lower-menu {
+    width: 100%;
+    height: 100%;
+    padding-top: 15px; 
+}
+.left img {
+  width: 200px;
+  float: left;
+  align-items: center;
+  margin-right: 255px;
+  
+}
+.post {
+    width: 100%;
+    height: 70vh;
+    background-image: url("./projectback.txt");
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+.lista {
+    text-decoration: none;
+    float: right;
+    margin-top: 20px;
+  
+}
+.lista li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    font-size: 15px;
+    color: black;
+    font-size: 16px;
+}
+.lista li a {
+    text-decoration: none;
+    color: black;
+}
+.lista li:nth-last-child(1){
+    width: 130px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: royalblue;
+}
+.lista li:nth-last-child(1) a { 
+    color:white;
+}
+.lista li a:hover {
+    color: #69bf14;
+}
+
+.foot_post {
+    width: 100%;
+    height: 17vh;
+    background-color: #1675bf;;
+}
+
+.center-post {
+    width: 50%;
+    margin: 0 auto;
+    color: black;  
+    padding-top: 10%;
+  
+}
+.center-post h1 {
+    font-size: 65px;
+}
+.text  {
+    color:gray;
+}
+.text , h1 {
+    text-align: center; 
+}
+.last , h1  {
+    margin-top: 17px;
+}
+
+
+
+
