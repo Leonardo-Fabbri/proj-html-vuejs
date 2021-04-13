@@ -9,6 +9,9 @@ var app = new Vue ({
             {message: "Blog"},
             {message: "Contact"},
             {message: "FREE QUOTE"}
+        ],
+        button: [
+            
         ]
 
     }
