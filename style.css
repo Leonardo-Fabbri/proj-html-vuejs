@@ -157,7 +157,7 @@ body {
     width: 100%;
     padding: 8%;
     background-color: white;
-    border-color: rgb(229, 229, 229);
+    background-color: rgb(242, 245, 248);
     border-style: 1px solid;
 }
 .upper-half {
@@ -192,7 +192,8 @@ body {
     border: 1px;
     border-radius: 20px;
     text-align: center;
-    background-color: royalblue;
+    background-color: #1675bf;
+    color: white;
 }
 .firstB {
     margin: 0 auto;
@@ -200,7 +201,7 @@ body {
 
 .areProfessional {
     width: 100%;
-    background-color: blue;
+    background-color: white;
     padding-top: 7%;
     padding-right: 30px;
     padding-bottom: 7%;
@@ -214,9 +215,8 @@ body {
 }
 .bflex , .bflex , .bflex {
     width: 400px;
-    height: 300px;
-    background-color: magenta;
-    border: 1px solid black;
+    background-color: rgb(242, 245, 248);
+    /* border: 1px solid black; */
     flex-direction: column;
     padding: 20px;
 }
@@ -228,7 +228,27 @@ body {
     width: 100%;
 }
 
+.bflex  h2 {
+    color: #1675bf;
+    margin: 15px;
+}
 
+.bianco {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.bianco p {
+    width: 300px;
+    margin: 0 auto;
+}
 
+.block {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 
