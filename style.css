@@ -6,7 +6,7 @@
 }
 body {
     width: 100%;
-    height: 300vh;
+    height: 400vh;
     background-color: gray;
 }
 .centopercento-upper {
@@ -232,7 +232,6 @@ body {
     color: #1675bf;
     margin: 15px;
 }
-
 .bianco {
     width: 100%;
     text-align: center;
@@ -244,11 +243,18 @@ body {
     width: 300px;
     margin: 0 auto;
 }
-
 .block {
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.move-with {
+    width: 100%;
+    height:100vh;
+    background-color: red;
+    background-image: url("https://avada.theme-fusion.com/movers/wp-content/uploads/sites/108/2018/06/avada-movers-movewithease-background-new.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 
