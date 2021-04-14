@@ -327,7 +327,6 @@ body {
 
    
 }
-
 .flexBis {
     width: 100%;
     display: flex;
@@ -335,7 +334,6 @@ body {
     padding: 40px;
 
 } 
-
 .face {
     width: 400px;
     height: 400px;
@@ -370,3 +368,30 @@ body {
     color: gray;
 }
 
+.Request {
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-image: url("https://avada.theme-fusion.com/movers/wp-content/uploads/sites/108/2018/06/avada-movers-request-quote-background.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+
+.Request h2 {
+    font-size: 47px;
+    text-align: center;
+    color: #6abf16;
+    margin-bottom: 20px;
+}
+.RequestP {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+}
+.Request p {
+    text-align: center;
+}
+.rebot {
+    margin: 0 auto;
+}
