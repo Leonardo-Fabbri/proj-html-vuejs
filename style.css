@@ -395,3 +395,8 @@ body {
 .rebot {
     margin: 0 auto;
 }
+.greenLine {
+    width: 100%;
+    height: 2vh;
+    background-color:#6abf16; ;
+}
