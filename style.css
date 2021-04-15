@@ -6,7 +6,7 @@
 }
 body {
     width: 100%;
-    height: 654vh;
+    /* height: 654vh; */
     background-color: gray;
 }
 .centopercento-upper {
@@ -187,7 +187,7 @@ body {
     margin: 30px;
 }
 .button {
-    max-width: 240px;
+    max-width: 270px;
     padding: 10px;
     padding-left: 5px;
     border: 1px;
@@ -275,8 +275,8 @@ body {
     color:white; 
     float: right;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: rgb(106, 191, 22);
@@ -292,8 +292,14 @@ body {
    margin-bottom: 15px;
 }
 .list {
+    width: 300px;
     margin-top: 100px;
     margin: 0 auto;
+    padding: 17px 40px;
+    border-radius: 25px;
+}
+.list a  {
+    font-size: 18px;
 }
 .paragrafo {
     margin-bottom: 50px;
@@ -401,6 +407,7 @@ body {
 }
 .rebot {
     margin: 0 auto;
+    width: 125px;
 }
 .greenLine {
     width: 100%;
@@ -409,8 +416,7 @@ body {
 }
 .Lastsection {
     width: 100%;
-    height: 609px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .upper-foot {
     width: 100%;
@@ -420,21 +426,22 @@ body {
 .firststline {
     width: 100%;
     margin: 0 auto;
-    background-color: violet;
+    /* background-color: violet; */
     display: inline-flex;
     justify-content: center;
 }
 .blocchi {
     width: 400px;
     height: 300px;
-    background-color: turquoise;
-    border: 1px solid black;
+    /* background-color: turquoise; */
+    /* border: 1px solid black; */
     padding-left: 15px;
     padding-right: 15px;
     
 }
 .blocchi h4 {
     margin-bottom: 28px;
+    font-size: 20px;
 }
 .blochi p {
     margin-right: 5%;
@@ -443,8 +450,67 @@ body {
     font-size: 16px;
 }
 .text-space {
-    margin-bottom: 50px;
+    min-width: 300px;
+    margin-bottom: 100px;
+    
+}
+.listaBis , a {
+    text-decoration: none;
+}
+.listaTRIS , a {
+    text-decoration: none;
+    color: black
+}
+.listaBis  li {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 16px;
+    
+
+    
+}
+.listaTRIS li {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 16px;
+
+    
 }
 .blocchi img {
     width: 185px;
+}
+.one {
+    margin-left: 20px;
+    padding-left: 50px;
+}
+.lower-foot {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:#6abf16;
+}
+.copyright {
+    width: 80%;
+    margin: 0 auto;
+}
+.up {
+    width: 100%;
+    text-align: center;
+    color:white
+}
+.up p {
+    font-size: 13px;
+}
+.down {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color:white;
+    font-size: 20px;
+}
+
+.down i {
+    margin-left: 15px;
 }
