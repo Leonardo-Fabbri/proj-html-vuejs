@@ -187,16 +187,22 @@ body {
     margin: 30px;
 }
 .button {
-    width: 100px;
+    max-width: 240px;
     padding: 10px;
+    padding-left: 5px;
     border: 1px;
     border-radius: 20px;
     text-align: center;
     background-color: #1675bf;
-    color: white;
-}
-.firstB {
     margin: 0 auto;
+    text-align: center;
+    
+}
+.button a {
+    text-decoration: none;
+    color:white;
+    text-align: center;
+
 }
 
 .areProfessional {
@@ -244,6 +250,7 @@ body {
     margin: 0 auto;
 }
 .block {
+    width: 150px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
