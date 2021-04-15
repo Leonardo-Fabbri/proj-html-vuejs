@@ -6,7 +6,7 @@
 }
 body {
     width: 100%;
-    height: 700vh;
+    height: 654vh;
     background-color: gray;
 }
 .centopercento-upper {
@@ -77,7 +77,7 @@ body {
 .post {
     width: 100%;
     height: 73vh;
-    background-image: url("./projectback.txt");
+    background-image: url("./images/projectback.txt");
     background-size: cover;
     background-position: top;
     overflow: hidden;
@@ -399,4 +399,45 @@ body {
     width: 100%;
     height: 2vh;
     background-color:#6abf16; ;
+}
+.Lastsection {
+    width: 100%;
+    height: 609px;
+    background-color: yellow;
+}
+.upper-foot {
+    width: 100%;
+    padding: 70px 10px 70px;
+    background-color: white;
+}
+.firststline {
+    width: 100%;
+    margin: 0 auto;
+    background-color: violet;
+    display: inline-flex;
+    justify-content: center;
+}
+.blocchi {
+    width: 400px;
+    height: 300px;
+    background-color: turquoise;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.blocchi h4 {
+    margin-bottom: 28px;
+}
+.blochi p {
+    margin-right: 5%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.text-space {
+    margin-bottom: 50px;
+}
+.blocchi img {
+    width: 185px;
 }

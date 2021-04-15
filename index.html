@@ -28,7 +28,7 @@
                                 <i class="fab fa-instagram"></i>
                                 <i class="fab fa-youtube"></i>
                             </div>
-                        </div> <!--5vh-->
+                        </div> 
                     </div>
 
                 </div>
@@ -39,7 +39,7 @@
                     <div class="center-bottom">
                         <div class="lower-menu">
                             <div class="left">
-                                <img src="./logo.txt" alt="">
+                                <img src="./images/logo.txt" alt="">
                             </div>
 
                             <ul class="lista">
@@ -95,6 +95,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac augue. Orci varius natoque penatibus et magnis dis parturient montes, ridiculus mus. Aliquam enim leo,
                             condimentum facilisis nulla sed, cursus arcu. Aliquam enim leo.</p>
                         <div class="button firstB">
+                            <p v-for="p in button"><a href="">{{p.Btext}}</a></p>
 
                         </div>
                     </div>
@@ -122,7 +123,7 @@
                                     <h2>Two Man Teams</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                                     <div class="button block">
-                                        Bottone
+                                        <p v-for="p in button"><a href="">{{p.BItext}}</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -132,7 +133,7 @@
                                     <h2>We Do All The Lifting</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                                     <div class="button block">
-                                        Bottone
+                                        <p v-for="p in button"><a href="">{{p.BIItext}}</a></p>
                                     </div>
                                 </div>
                                
@@ -143,7 +144,7 @@
                                     <h2>Coast To Coast</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                                     <div class="button block">
-                                        Bottone
+                                        <p v-for="p in button"><a href="">{{p.BIIItext}}</a></p>
                                     </div>
                                 </div>
                                 
@@ -174,7 +175,7 @@
                         
 
                         <div class="button list">
-                            Bottone
+                            <p v-for="p in button"><a href="">{{p.BIVtext}}</a></p>
                         </div>
                         
 
@@ -223,7 +224,7 @@
                             </div>
                         </div>
                         <div class="button BH">
-                            Bottone
+                            <p v-for="p in button"><a href="">{{p.BVtext}}</a></p>
                         </div>
 
                         
@@ -245,13 +246,52 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                     </div>
                     <div class="button rebot">
-                        Bottone
+                        <p v-for="p in button"><a href="">{{p.BVItext}}</a></p>
                     </div>
                 </div>
-                <div class="greenLine">
+                <div class="greenLine"></div>
+            </section>
+
+            <!-- section 8 -->
+            <footer>
+                <div class="Lastsection">
+                    <div class="upper-foot">
+                        <div class="firststline">
+                            <div class="blocchi">
+                                <div class="text-space">
+                                    <h4>ABOUT</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis ex ut sem accumsan vehicula. Integer elit arcu, hendrerit id sapien ut, facilisis accumsan arcu.</p>
+
+                                </div>
+                                <img src="./images/logo.txt" alt="">
+                            </div>
+                            <div class="blocchi">
+                                <h4>AVADA MOVERS</h4>
+                                <div class="list-container">
+                                    <ul class="listaBis">
+                                        <li v-for="puntobis in listaBis"><a href=""><i class="fas fa-angle-right"></i>{{puntobis.text}} </a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div class="blocchi">
+                                <h4>RECENT POSTS</h4>
+                                <div class="list-container">
+                                    <ul class="listaTRIS">
+                                        <li v-for="puntoTRIS in listaTRIS"><a href=""><i class="fas fa-angle-right"></i>{{puntoTRIS.textTRIS}} </a></li>
+                                    </ul>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                   
 
                 </div>
-            </section>
+            </footer>
 
 
            
