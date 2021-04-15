@@ -26,16 +26,6 @@ var app = new Vue ({
 
                 
 
-        ],
-        button: [
-            {Btext:"ciao"},
-            {BItext:"come va?"},
-            {BIItext:"OK"},
-            {BIIItext:"NO"},
-            {BIVtext:"SI"},
-            {BVtext:"DOVE"},
-            {BVItext:"QUANDO"}
-            
         ]
 
     }
